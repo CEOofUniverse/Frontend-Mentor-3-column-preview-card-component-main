@@ -1,3 +1,5 @@
+/* Mobile-first design principle applied */
+
 * {
     margin: 0;
     padding: 0;
@@ -7,31 +9,122 @@
 body {
     background: hsla(0, 0%, 100%, 0.75);
     font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
 }
 
 p {
     color: hsla(0, 0%, 100%, 0.75);
+    padding: 15px;
+
+}
+
+h1 {
+    color: hsl(0, 0%, 95%);
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+img {
+    padding: 15px;
 }
 
 .container {
     display: inline-block;
+    margin: 15% 5% 15% 5%;
+    overflow: hidden;
+    border-radius: 10px;
+    text-align: start;
 }
 
 .item1 {
     background-color: hsl(31, 77%, 52%);
+    padding: 3%;
 }
 
 .item2 {
     background-color: hsl(184, 100%, 22%);
+    padding: 3%;
 }
 
 .item3 {
     background-color: hsl(179, 100%, 13%);
+    padding: 3%;
+}
+
+.button {
+    font-weight: 700;
+}
+
+.button1 {
+    display: inline-block;
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(31, 77%, 52%);
+    padding: 1em;
+    border-radius: 75px 75px;
+    margin: 10px;
+}
+
+.button2 {
+    display: inline-block;
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(184, 100%, 22%);
+    padding: 1em;
+    border-radius: 75px 75px;
+    margin: 10px;
+    border: 2px solid hsl(0, 0%, 95%):
+}
+
+.button3 {
+    display: inline-block;
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(179, 100%, 13%);
+    padding: 1em;
+    border-radius: 75px 75px;
+    margin: 10px;
+    border: 2px solid hsl(0, 0%, 95%);
+}
+
+.button1:hover {
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+}
+
+.button2:hover {
+    background-color:  hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+    border: 2px solid  hsl(0, 0%, 95%);
+}
+
+.button3:hover {
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
 }
 
 
 @media (min-width: 376px) {
+
+    body {
+        width: 1440px;
+    }
+
     .container {
     display: flex;
+    margin: 10% 5% 10% 5%;
+    height: 400px;
+    width: 70%;
+    }
+
+    .item1 {
+        width: 33.33%;
+    }
+
+    .item2 {
+        width: 33.33%;
+    }
+
+    .item3 {
+        width: 33.33%;
     }
 }
