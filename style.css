@@ -1,11 +1,37 @@
 * {
     margin: 0;
+    padding: 0;
 }
 
-@media screen {
-    
-}
 
 body {
     background: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.container {
+    display: inline-block;
+}
+
+.item1 {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.item2 {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.item3 {
+    background-color: hsl(179, 100%, 13%);
+}
+
+
+@media (min-width: 376px) {
+    .container {
+    display: flex;
+    }
 }
