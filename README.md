@@ -18,8 +18,7 @@ Note that I am a complete newbie and this is my very first CSS project. Any feed
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://ceoofuniverse.github.io/Frontend-Mentor-3-column-preview-card-component-main/)
 
 ### Built with
 
@@ -30,7 +29,6 @@ Note that I am a complete newbie and this is my very first CSS project. Any feed
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - (https://github.com/CEOofUniverse/)
+
 
